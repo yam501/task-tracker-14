@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: task-tracker
+  main:
+    web-application-type: none
+    banner-mode: "off"
+  datasource:
+    url: jdbc:postgresql://localhost:55432/task_tracker
+    username: student
+    password: student
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+logging:
+  level:
+    root: WARN
